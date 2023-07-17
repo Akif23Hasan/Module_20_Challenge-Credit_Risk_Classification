@@ -1,6 +1,8 @@
 # Module_20_Challenge-Credit_Risk_Classification
 This project aims to develop a logistic regression model for credit risk classification. The objective is to predict whether a loan is healthy or high-risk based on various features provided by the lending company.
 
+![alt text](https://www.investopedia.com/thmb/C_bFuBz5TbJphsxLFrlLx3S4zyM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/creditrisk-Final-18f65d6c12404b9cbccd5bb713b85ce4.jpg)
+
 ## Requirements
 * Python v3.10.9
 * The following libraries are required to run the analysis code:

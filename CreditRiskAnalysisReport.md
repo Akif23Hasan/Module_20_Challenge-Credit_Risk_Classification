@@ -1,4 +1,5 @@
 # Module 20 - Credit Risk Analysis Report
+![alt text](https://cdn.educba.com/academy/wp-content/uploads/2021/02/Credit-Risk.jpg)
 
 ## Overview of the Analysis
 In this section, describe the analysis you completed for the machine learning models used in this Challenge. This might include:

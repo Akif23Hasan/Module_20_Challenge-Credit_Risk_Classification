@@ -1,7 +1,6 @@
-# Module 12 Report Template
+# Module 20 - Credit Risk Analysis Report
 
 ## Overview of the Analysis
-
 In this section, describe the analysis you completed for the machine learning models used in this Challenge. This might include:
 
 * Explain the purpose of the analysis.
@@ -20,11 +19,10 @@ The logistic regression model, implemented with the "LogisticRegression" algorit
 
 
 ## Results
-
 Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all machine learning model.
 
-* Machine Learning Model 1:
-  * Description of Model 1 Accuracy, Precision, and Recall scores.
+* Machine Learning Model:
+  * Description of Model Accuracy, Precision, and Recall scores.
   
   The Logistic Regression Model developed using the dataset provided by the lending company achieved an impressive accuracy score of 99%. However, it is worth noting that the model's recall value for non-healthy loans (89%) is lower than the recall value for healthy loans (100%). This indicates that the model is more effective at predicting loan status as healthy rather than identifying non-healthy loans. This discrepancy can be attributed to the dataset's inherent imbalance, where healthy loans significantly outnumber non-healthy loans.
   
@@ -41,8 +39,7 @@ Using bulleted lists, describe the balanced accuracy scores and the precision an
 
 ## Summary
 
-Summarise the results of the machine learning models, and include a recommendation on the model to use, if any. For example:
-* Which one seems to perform best? How do you know it performs best?
-* Does performance depend on the problem we are trying to solve? (For example, is it more important to predict the `1`'s, or predict the `0`'s? )
+Summarise the results of the machine learning models, and include a recommendation on the model to use, if any. 
+  Considering the results and the objectives of the lending company, it is recommended to deploy the Logistic Regression Model for predicting loan statuses. The model's exceptional accuracy score, along with its high precision and recall for healthy loans, makes it a valuable tool for identifying low-risk borrowers. Despite a slight performance gap in detecting non-healthy loans, the model still provides meaningful insights into loan risk assessment. However, it is crucial for the company to be mindful of the imbalanced nature of the dataset, as it may impact the model's accuracy in predicting non-healthy loans reliably.
 
-If you do not recommend any of the models, please justify your reasoning.
+  In conclusion, the Logistic Regression Model offers a reliable and efficient approach to predict loan statuses. It effectively supports the lending company in identifying low-risk loans, facilitating informed decision-making and risk management. Continuous monitoring and adjustment, while considering the dataset's imbalance, can further enhance the model's performance in accurately identifying non-healthy loans.
